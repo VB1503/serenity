@@ -207,7 +207,7 @@ a{
         display: none;
     }
     .serenity{
-        font-size: 30px;
+        font-size: 40px;
     }
     .txt{
         overflow-y: scroll;
@@ -219,5 +219,10 @@ a{
     }
     .three{
         display: block;
+    }
+}
+@media(max-width:600px){
+    .serenity{
+    font-size:20px;
     }
 }
